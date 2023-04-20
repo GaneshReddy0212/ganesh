@@ -1,6 +1,8 @@
 import mysql.connector
 from mysql.connector import Error
 
+# This comment is added by Ganesh 
+
 try:
     connection = mysql.connector.connect(host='localhost',
                                          database='tetdb',
